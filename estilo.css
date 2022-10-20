@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 100px;
+}
+
+nav {
+    background-color: gray;
+    text-align: center;
+}
+
+nav ul li {
+    margin: 5%;
+    padding: 5px;
+    background-color: blue;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    text-align: center;
+}
+
+video {
+    width: 600px;
+    height: auto;
+    margin: 20px;
+}
+
+.imagennav {
+    display: none;
+}
+
+@media all and (max-width: 700px) {
+    nav ul li {
+        display: none;
+    }
+    video {
+        width: 100%;
+    }
+    .imagennav {
+        display: inline;
+        height: 80px;
+        width: 80px;
+    }
+    img:hover {
+        display: block;
+    }
+}
